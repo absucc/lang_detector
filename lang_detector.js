@@ -8,6 +8,7 @@ var isBulgarian;
 var isCatalan;
 var isCzech;
 var isWelsh;
+var isDanish;
 var isSpanish;
 var isEnglish;
 
@@ -84,6 +85,7 @@ if (theLang=="af") {
 } else if (theLang=="cy-GB") {
     isWelsh = true;
 } else if (theLang=="da") {
+    /* Danish */
     isDanish = true;
 } else if (theLang=="da-DK") {
     isDanish = true;
