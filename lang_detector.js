@@ -9,8 +9,14 @@ var isCatalan;
 var isCzech;
 var isWelsh;
 var isDanish;
-var isSpanish;
+var isGerman;
+var isDivehi;
+var isGreek;
+var isEsperanto;
 var isEnglish;
+var isSpanish;
+var isEstonian;
+var isBasque;
 
 if (theLang=="af") {
     /* Afrikaans */
@@ -89,7 +95,11 @@ if (theLang=="af") {
     isDanish = true;
 } else if (theLang=="da-DK") {
     isDanish = true;
-} else if (theLang=="de")
+} else if (theLang=="de") {
+    isGerman = true;
+} else if (theLang=="de-AT" {
+    isGerman = true;
+    country = "Austria";
 } else if (theLang=="es") {
     /* Spanish */
     isSpanish = true;
